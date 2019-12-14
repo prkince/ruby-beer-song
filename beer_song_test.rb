@@ -368,7 +368,6 @@ Go to the store and buy some more, 99 bottles of beer on the wall.
   #
   # Define a constant named VERSION inside of BookKeeping.
   def test_bookkeeping
-    skip
     assert_equal 2, BookKeeping::VERSION
   end
 end
